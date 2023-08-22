@@ -1,0 +1,153 @@
+Application States 
+
+    Running time and musicON
+    Running time
+    no one 
+
+    Class html .running stopwatch 
+    click on play blue ▶️
+        swap to img color write 
+                      ⏸️
+                      🕐
+                      🔈
+                      
+              Click on the   ⏸️
+                            ▶️
+                            🔈    
+
+    html .musicON 
+    🔊
+    html:not(.musicON),  
+    🔈
+
+    html:not(.running), 
+    ▶️
+    ⏲️
+    🔈
+    html .running,
+    ⏸️
+    🕐
+    🔈
+
+Criando o estado da aplicação
+02:41  proxima aula  
+
+
+html.light ( dark mode )
+    -last reference when the class light aren't into the html tag 
+
+    background = lats color 
+    color = last background
+When i have class light i hide the sun 
+Inverse i hide the moon
+
+  New code learned {
+      display: grid;
+      justify-items: center;
+      }
+  
+      meta:desc
+
+      #Acessibility (for testing put the audio narrador by configurations on my computer and listen)
+     
+      (link + details about this)[https://getbootstrap.com/docs/5.0/getting-started/accessibility/#:~:text=View%20on%20GitHub-,Accessibility,Overview%20and%20limitations,-The]
+      
+      every button put something that indicates what actions can support by clicking them 
+      
+      hide the text but readers can find the text not visible
+
+      .screen_read_only{
+        width: 1px;
+        height: 1px;
+        position: absolute;
+
+        overflow: hidden;
+        appearance: none;
+        
+        border: 0;
+
+        margin: -1px;
+        padding: 0;
+
+      }
+
+
+      botão get started 
+      copy script code 
+      go back and chose the icon by name on a website 
+      look at the name of classes and put the same where you wana on HTML
+
+
+
+      html.light .ph-moon,
+      html:not(.light) .ph-sun{
+        display : none;
+      }
+
+
+VERSION 1.0 
+
+
+    Starts the time minimum for test the stopwatch
+
+    Event : Click on the first button
+
+    reaction :  decrement time + short song efect 
+                the next two buttons change icons
+
+    Event : ends the cronometro time 
+
+    Reaction : reset number time + short song ends efect 
+               the next two buttons change
+
+
+
+
+    Event : Click on the second button until aren't on time in live (use to change the minutes)
+
+    No matter how much time you typed max size at the end will be 60 
+
+    reaction :  decrement time + short song efect 
+                the next two buttons change icons
+
+    Event : ends the cronometro time 
+
+    Reaction : reset number time + short song ends efect 
+               the next two buttons change
+
+
+    Last button have a song 
+
+               
+
+
+    
+
+
+
+watch the next 
+
+:Focus Timer
+24 aulas
+01:44:34
+
+Apresentação do projeto
+03:51
+
+
+Figma - Focus Timer
+
+Estruturando o HTML
+05:10
+
+
+Adicionando ícones
+03:18
+
+
+Iniciando os estilos e variáveis
+04:44
+
+
+Estilizando o relógio e botões
+03:4
